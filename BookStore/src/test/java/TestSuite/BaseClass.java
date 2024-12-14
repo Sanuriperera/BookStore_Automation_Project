@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 public class BaseClass {
 
     public WebDriver driver;
-    public String baseURL = "https://demoqa.com/login";
+    public String baseURL = "https://demoqa.com/books";
 
     @BeforeClass
     public void beforeClass(){
